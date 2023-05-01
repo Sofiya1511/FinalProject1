@@ -1,23 +1,34 @@
 @import url(./fonts.css);
 
 * {
-  margin: 0 ;
+  margin: 0 auto;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
 }
 
 h1 {
-  font-size: 34px;
+  margin: 30px 0;
+  font-size: 30px;
+  text-align: center;
+}
+header h1 {
+  text-align: left;
 }
 a {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
+ a:hover {
+  color: rgba(241, 85, 37, 1);
+}
+
 
 .container {
   margin: 0 auto;
   display: grid;
   height: 100vh;
+  max-width: 1920px;
 }
 
 .header {
@@ -28,6 +39,7 @@ a {
   justify-content: space-around;
   align-items: center;
   gap: 20px;
+  max-width: 100%;
  background: radial-gradient(circle at 80% 50%, 
  rgba(234,242,245,1) 0%, 
  rgba(255,255,255,1) 10%, 
@@ -38,8 +50,9 @@ a {
  rgba(234,242,245,1) 50%, 
  rgba(255,255,255,1) 75%, 
  rgba(234,242,245,1) 75%, 
- rgba(255,255,255,1) 100%, 
- rgba(234,242,245,1) 100%); 
+ rgba(255,255,255,1) 100%,
+ rgba(234,242,245,1) 75% 
+ ); 
  
 }
 
@@ -73,6 +86,8 @@ background-color: rgb(255, 255, 255);
   list-style-type: none;
 }
 
+.nav-item
+
 .item5, .item6 {
   margin-left: auto;
 }
@@ -82,27 +97,42 @@ background-color: rgb(255, 255, 255);
   margin-right: 10px;
 }
 
+.item7 > a {
+  color: rgb(255, 255, 255);
+   }
+
 .item7{
 padding: 5px 8px;
-color: rgb(255, 255, 255);
   background-color: rgba(56, 191, 242, 1);
   border: none;
   border-radius: 20px;
 }
 
 .header-text {
- display: flex;
- flex-direction: column;
- gap: 20px;
-  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50vw;
+  max-width: 80%;
+  word-wrap: break-word;
+  flex-shrink: 2;
 }
-
+.line1 {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(222, 222, 222);
+}
 .header-img {
-
+  margin: 20px;
+  max-width: 100%;
 }
-
+.colortext {
+  color:rgba(241, 85, 37, 1);
+}
+.italictext {
+  font-style: italic;
+}
 .test-button {
-
 background-color: rgba(241, 85, 37, 1);
 width: 
 199.91px;
@@ -110,4 +140,154 @@ height: 54.78px;
 border: none;
 border-radius: 50px;
 color: rgb(255, 255, 255);
+}
+
+.test-button:hover{
+ cursor: pointer;
+}
+
+.tech-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin:20px ;
+  padding: 20px;
+  max-width: 100%;
+  background-color: 
+  rgb(234, 242, 245)
+  ;
+  border-radius: 50px;
+}
+
+.tech-item  {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  padding: 0px;
+}
+.tech-img {
+  flex-shrink: 1;
+}
+
+.tech-item-list {
+  border: none;
+  border-radius: 44px;
+  padding: 11px;
+  margin: 10px;
+  text-align: center;
+}
+
+.tech-list0 {
+  background-color: rgba(80, 150, 255, 1) ;
+  color: rgb(255, 255, 255);
+}
+.tech-list1 {
+  background-color: 
+  rgba(255, 179, 89, 1);
+  color: rgb(255, 255, 255);
+}
+
+.tech-list2 {
+  background-color:  rgba(255, 111, 80, 1);
+  color: rgb(255, 255, 255);
+}
+
+.tech-list3 {
+  background-color:  rgba(75, 208, 113, 1);
+  color: rgb(255, 255, 255);
+}
+
+.tech-list4 {
+  background-color:  rgba(80, 192, 255, 1);
+  color: rgb(255, 255, 255);
+}
+
+.tech-list5 {
+  background-color:  rgba(75, 119, 185, 1);
+  color: rgb(255, 255, 255);
+}
+
+.tech-list6 {
+  background-color:  rgba(175, 147, 255, 1);
+  color: rgb(255, 255, 255);
+}
+
+.tech-list7 {
+text-align: left;
+}
+
+.advantage-block{
+  border-radius: 0 0 60px 60px;
+  background-color: aqua;
+}
+.advantage-container {
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+gap: 20px;
+padding: 20px;
+}
+
+.advantage-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 20%;
+  max-height: auto;
+   background-color: rgb(234, 242, 245);
+ border-radius: 50px;
+ text-align: center;
+}
+
+.video-wrapper {
+  position: relative;
+}
+.video_source {
+  position: relative;
+}
+
+.video-play-button {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  z-index: 2;
+  width: 200px;
+  height: 200px;
+ background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .header-text,
+  .test-button,
+  .line1,
+  p {
+    margin: 0 auto;
+    width: 80%; 
+  }
+}
+
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .tech-img, 
+  .tech-list7 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+.item-list{
+  justify-content: center;
+  width: 100%;
+  margin: 10px;
+  padding: 5px;
+}
 }
