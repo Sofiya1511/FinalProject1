@@ -5,11 +5,11 @@
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
-  
+
 }
 
 body {
-    max-width: 1280px;
+  max-width: 1280px;
   min-width: 320px;
 }
 
@@ -34,7 +34,6 @@ a:hover {
   color: rgba(241, 85, 37, 1);
 }
 
-
 .container {
   margin: 0;
   display: flex;
@@ -43,7 +42,6 @@ a:hover {
   min-width: 580px;
   height: 100vh;
 }
-
 
 .header {
   display: flex;
@@ -69,9 +67,7 @@ a:hover {
 
 }
 
-
 .nav-wrapper {
- 
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -83,10 +79,9 @@ a:hover {
   padding: 20px;
   width: 80vw;
   background-color: rgb(255, 255, 255);
-
 }
 
-.nav-background{
+.nav-background {
   background-color: rgb(255, 255, 255);
 }
 
@@ -100,9 +95,11 @@ a:hover {
   margin-left: auto;
 }
 
-#burger, [for=burger]{
+#burger,
+[for=burger] {
   display: none;
 }
+
 .nav2 {
   display: none;
   position: fixed;
@@ -113,7 +110,6 @@ a:hover {
   border-radius: 40px;
   width: 70vw;
 }
-
 
 .item2,
 .item3,
@@ -134,9 +130,8 @@ a:hover {
 
 .item7:hover {
   cursor: pointer;
-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
-
 
 .header-text {
   display: flex;
@@ -181,8 +176,8 @@ color: rgb(0, 0, 0);
 }
 
 .test-button:hover,
-.vid-button:hover ,
-.price-button:hover  {
+.vid-button:hover,
+.price-button:hover {
   cursor: pointer;
   color: rgb(0, 0, 0);
 }
@@ -307,7 +302,7 @@ color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
   padding: 20px;
 }
 
@@ -389,17 +384,16 @@ color: rgb(0, 0, 0);
   padding: 50px;
   background: radial-gradient(circle at 50% 0,
 
-  rgba(234, 242, 245, 1) 5%,
-  rgba(255, 255, 255, 1) 10%,
-  rgba(234, 242, 245, 1) 10%,
-  rgba(255, 255, 255, 1) 20%,
-  rgba(234, 242, 245, 1 ) 20%,
-  rgba(255, 255, 255, 1) 30%,
-  rgba(234, 242, 245, 1 ) 30%,
-  rgba(255, 255, 255, 1) 50%,
-  rgba(249, 249, 253, 1) 50%,
-  rgba(249, 249, 253, 1) 100%
- );
+      rgba(234, 242, 245, 1) 5%,
+      rgba(255, 255, 255, 1) 10%,
+      rgba(234, 242, 245, 1) 10%,
+      rgba(255, 255, 255, 1) 20%,
+      rgba(234, 242, 245, 1) 20%,
+      rgba(255, 255, 255, 1) 30%,
+      rgba(234, 242, 245, 1) 30%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(249, 249, 253, 1) 50%,
+      rgba(249, 249, 253, 1) 100%);
 }
 
 .info-block {
@@ -414,7 +408,7 @@ color: rgb(0, 0, 0);
   border-radius: 50px;
 }
 
-.info-item{
+.info-item {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -425,7 +419,7 @@ color: rgb(0, 0, 0);
   min-height: 230px;
   border-radius: 50px;
   background-color: rgba(234, 242, 245, 1);
-  
+
 }
 
 
@@ -453,31 +447,31 @@ color: rgb(0, 0, 0);
 
 .price-table {
   width: 100%;
-	border: none;
-	margin: 20px;
+  border: none;
+  margin: 20px;
   padding: 20px;
   border-radius: 50px;
   background-color: rgb(255, 255, 255);
 }
 
-thead{
+thead {
   text-align: left;
   margin: 20px;
   padding: 30px;
   color: rgba(56, 191, 242, 1);
 }
 
-table tbody td{
+table tbody td {
   vertical-align: middle;
   padding: 10px;
 }
 
 table tbody tr:nth-child(odd) {
- border-radius: 50px;
+  border-radius: 50px;
   background: #F8F8F8;
 }
 
- table tfoot tr {
+table tfoot tr {
   font-size: 18px;
   font-weight: 700;
   margin: 20px;
@@ -492,7 +486,7 @@ table tbody tr:nth-child(odd) {
 
 .price-last-block {
   border-radius: 30px;
-background-color: rgba(234, 242, 245, 1);
+  background-color: rgba(234, 242, 245, 1);
 }
 
 .price-last-block-item {
@@ -505,28 +499,26 @@ background-color: rgba(234, 242, 245, 1);
   flex-direction: column;
   flex-grow: 1;
   justify-content: space-between;
-  background-color:rgba(249, 249, 253, 1);
+  background-color: rgba(249, 249, 253, 1);
 }
 
 .footer-part1 {
-display: grid;
-grid-template-areas: "a a a a a a b b b c c f " " a a a a a a b b b d d d" ;
-column-gap: 30px;
-row-gap: 30px;
-margin: 0;
-margin-bottom: 20px;
+  display: grid;
+  grid-template-areas: "a a a a a a b b b c c f " " a a a a a a b b b d d d";
+  column-gap: 30px;
+  row-gap: 30px;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .footer-part2 {
-display: grid;
-grid-template-areas: "a a a b b b c c c d d d ";
+  display: grid;
+  grid-template-areas: "a a a b b b c c c d d d ";
   color: rgb(104, 103, 103);
   column-gap: 30px;
   row-gap: 30px;
   margin: 20px 0;
-
 }
-
 
 .footer-item1 {
   grid-area: a;
@@ -541,12 +533,14 @@ grid-template-areas: "a a a b b b c c c d d d ";
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .footer-list1 {
   display: flex;
   flex-direction: row;
   list-style: none;
   margin: 20px;
 }
+
 .footer-list1-item {
   padding: 5px;
 }
@@ -558,8 +552,8 @@ grid-template-areas: "a a a b b b c c c d d d ";
   transition: linear;
   transition-duration: 100ms;
 }
- 
-.footer-item2{
+
+.footer-item2 {
   grid-area: b;
   display: flex;
   flex-direction: column;
@@ -585,10 +579,12 @@ grid-template-areas: "a a a b b b c c c d d d ";
   grid-area: d;
   color: rgb(123, 118, 118);
 }
+
 li {
   margin-left: 0;
 }
-.footer-pt2-item1{
+
+.footer-pt2-item1 {
   grid-area: a;
 }
 
@@ -615,8 +611,8 @@ li {
 }
 
 @media screen and (max-width: 768px) and (orientation: portrait) {
-   
-  [for=burger]{
+
+  [for=burger] {
     display: block;
     position: sticky;
     width: 30px;
@@ -625,12 +621,12 @@ li {
     color: rgba(255, 111, 80, 1);
     font-weight: 700;
     font-size: 34px;
-  } 
+  }
 
-   #burger:checked + label + nav {
-     display: block; 
-     background-color: ;
-   }
+  #burger:checked+label+nav {
+    display: block;
+    background-color: ;
+  }
 }
 
 
@@ -658,15 +654,17 @@ li {
     border-bottom: 1px solid rgb(222, 222, 222);
   }
 
-  .vid-item3, .vid-item2 {
-   display: none;
+  .vid-item3,
+  .vid-item2 {
+    display: none;
   }
 
   .vid-item3 {
     border: none;
   }
-  
-  .vid-item4, .vid-item5 {
+
+  .vid-item4,
+  .vid-item5 {
     display: flex;
   }
 
@@ -676,11 +674,12 @@ li {
 }
 
 
-@media screen and (min-width: 720px)  {
-  .vid-item4, 
+@media screen and (min-width: 720px) {
+
+  .vid-item4,
   .vid-item5 {
     display: none;
-  } 
+  }
 }
 
 @media screen and (max-width: 768px) and (orientation: portrait) {
@@ -710,13 +709,13 @@ li {
 }
 
 @media screen and (max-width: 768px) and (orientation: portrait) {
- 
-  .footer {
- justify-content: center;
-}
 
-@media screen and (max-width: 768px) and (orientation: portrait) {
-   .nav-item {
-    display: none;
+  .footer {
+    justify-content: center;
   }
-}
+
+  @media screen and (max-width: 768px) and (orientation: portrait) {
+    .nav-item {
+      display: none;
+    }
+  }
